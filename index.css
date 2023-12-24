@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.6;
+  
+}
+.navigation > div {
+  color: white;
+  margin-left: ;
+  text-align: center;
+}
+.navigation > div:nth-child(3) {
+    margin-left: 100px;
+}
