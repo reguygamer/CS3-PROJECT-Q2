@@ -1,22 +1,45 @@
-body {
+html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
-.navigation {
+body{
+  background: url('images/Home-Image.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.heading{
+  background-color: #1E1C1C;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+header{
   display: flex;
-  background-color: black;
-  opacity: 0.6;
+  
+}
+.Logo > img{
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+}
+.Soar{
+  margin-top: 20px;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
 }
 
-.navigation > div {
-  color: white;
-  margin: 10px;
-  text-decoration: none;
-  margin: 50px;
+.Discord{
+  background-image: url('images/Socials/Twitter-X.com/Twitter.png');
 }
+.Twitter{}
+.YouTube{
+  background: url('images/Socials List.jpg') no-repeat -168px -336px;
+	width: 96px;
+	height: 96px;
+  z-index: 100;
+}
+ 
 
-.navigation div > a {
-  text-decoration: none;
-  color: white;
-}
