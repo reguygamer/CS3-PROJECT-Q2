@@ -10,12 +10,14 @@ html {
     left: 0;
     width: 100%;
     height: 100px;
+    background-image: url("images/header_dablur.png");
   }
   body{
     background-color: #2e2e2e;
   }
   header {
     display: flex;
+    background: url('../images/header_dablur.png');
   }
   .Logo > img {
     width: 100px;
